@@ -17,8 +17,14 @@ Date: 2018/3/11
 - can try to swipe to left to check more images...
 - a lot of parts that need to be completed
 
-# Some UI Practices Exercise can go to 
+# Some UI Practices Exercise can visit
 https://github.com/raylinhonghu/react-native-instagram-mock
+
+# Todo
+- clear input field after submission 
+- search name and show (need to figure out what kind of Object does firebase add_child callback return)
+- sort contact list by order (this can be solved once child callback is resolved)
+- login using firebase auth
 
 # Dependencies 
     "firebase": "^4.11.0",
