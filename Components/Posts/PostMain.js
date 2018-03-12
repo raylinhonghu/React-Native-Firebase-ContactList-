@@ -16,13 +16,13 @@ const AppTabNavigator = TabNavigator({
     PostArea:{
         screen: PostArea
     },
+    ImageGallery: {
+        screen: ImageGallery
+    },
     PublicChat: {
         screen: PublicChat
     },
     
-    ImageGallery: {
-        screen: ImageGallery
-    },
 },
 {
     animationEabled: true,

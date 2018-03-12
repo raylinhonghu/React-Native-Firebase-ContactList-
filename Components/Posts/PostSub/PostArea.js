@@ -49,15 +49,15 @@ export default class PostArea extends Component{
                   <PostComponent iconNumber={remotePosts[0].iconNumber}
                   postname={remotePosts[0].postname} posttime={remotePosts[0].posttime} 
                   postcontent ={remotePosts[0].postcontent}
-                  likes="4" commenter="5" comment="6" />
+                  likes="4" />
                   <PostComponent iconNumber={remotePosts[1].iconNumber}
                   postname={remotePosts[1].postname} posttime={remotePosts[1].posttime} 
                   postcontent ={remotePosts[1].postcontent}
-                  likes="4" commenter="5" comment="6" />
+                  likes="4"/>
                   <PostComponent iconNumber={remotePosts[2].iconNumber}
                   postname={remotePosts[2].postname} posttime={remotePosts[2].posttime} 
                   postcontent ={remotePosts[2].postcontent}
-                  likes="4" commenter="5" comment="6" />
+                  likes="4" />
                 </Content>
             </Container>
         );

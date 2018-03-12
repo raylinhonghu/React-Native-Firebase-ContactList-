@@ -22,7 +22,8 @@ export default class PostComponent extends React.Component{
                 require('./assets/img/10.png'),
                 require('./assets/img/11.png'),
                 require('./assets/img/12.png'),
-              ]
+              ],
+              postComment: ''
         }
 
     }
@@ -37,6 +38,12 @@ export default class PostComponent extends React.Component{
         var starStatus = this.state.star;
         starStatus = !starStatus;
         this.setState({star:starStatus})
+    }
+
+    makeComment = (yourInput) =>{
+        var concateMessage = 'You: ' + yourInput;
+
+        this.setState({postComment:concateMessage})
     }
 
     render(){
@@ -85,13 +92,15 @@ export default class PostComponent extends React.Component{
                     <Text style={{fontWeight:'bold',fontSize:16}}>{this.props.likes}</Text>
                 </CardItem>
 
-                <CardItem style={{height:30,marginBottom:10}}>
-                    <Input placeholder="comment" style={{backgroundColor:'#d1d8e0', borderRadius:0}} /> 
+                <CardItem>
+                    <View>
+                        <Text>{this.state.postComment}</Text>
+                    </View>
                 </CardItem>
 
-                <CardItem>
-                    <Text style={{fontWeight:'bold'}}>{this.props.commenter} </Text>
-                    <Text>{this.props.comment}</Text>
+                <CardItem style={{height:30,marginBottom:10}}>
+                    <Input placeholder="comment" style={{backgroundColor:'#d1d8e0', borderRadius:0}}
+                    onChangeText={(postComment)=>this.makeComment(postComment)} /> 
                 </CardItem>
             </Card>
         );
