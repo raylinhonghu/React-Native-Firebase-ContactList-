@@ -24,6 +24,9 @@ Date: 2018/3/11
 - Put styles in StyleSheet
 - debugging tests using jest
 
+# Screenshoots 
+https://github.com/raylinhonghu/React-Native-Firebase-ContactList-/tree/master/sreenshots
+
 # UI instagrem mock exercise using 'native-base' can visit
 https://github.com/raylinhonghu/react-native-instagram-mock
 
