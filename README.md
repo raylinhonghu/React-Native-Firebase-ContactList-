@@ -21,6 +21,8 @@ Date: 2018/3/11
 - clear input field after submission 
 - search name and show (need to figure out what kind of Object does firebase add_child callback return)
 - sort contact list by order (this can be solved once child callback is resolved)
+- make a data structure for each post (postman,postdate,likes,views,comments,content,etc...)and update in firebase as well 
+
 - Put styles in StyleSheet
 - debugging tests using jest
 
