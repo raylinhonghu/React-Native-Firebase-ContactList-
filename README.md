@@ -9,8 +9,6 @@ Date: 2018/3/11
 - Scroll down to check more names that currently existing on the list 
 - Data are posted to firebase using unique keys 
 
-<img src="https://github.com/raylinhonghu/React-Native-Firebase-ContactList-/tree/master/sreenshots/1.png" width="300px">
-
 # Static Post Tab
 - make comment to post
 - like, star
